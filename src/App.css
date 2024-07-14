@@ -1,20 +1,32 @@
-.App {
-  text-align: center;
+.name {
+  font-size: 130px;
+  justify-content: left;
+  font-weight: 300;
+  background: -webkit-linear-gradient(#ff7130, #ff36c8, #872b97);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0; /* Ensure no extra margin around the name */
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.d1 {
+  padding-top: 40px;
+  padding-right: 600px;
+  font-weight: 50;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.d2 {
+  font-weight: 50;
+}
+
+
+
+.App-content {
+  display: inline-block;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #171721;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +40,8 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Github {
+  border-radius: 10px;
+  font-size: 20px;
 }
+
