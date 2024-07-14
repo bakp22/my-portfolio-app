@@ -2,7 +2,7 @@
   font-size: 170px;
   justify-content: left;
   font-weight: 600;
-  background: -webkit-linear-gradient(#ff7130, #ff36c8, #872b97);
+  background: -webkit-linear-gradient(#d0efff, #2a9df4, #187bcd);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0; /* Ensure no extra margin around the name */
@@ -17,9 +17,12 @@
 
 .d2 {
   font-weight: 200;
+  margin: 0;
 }
 
-
+.skills{
+  text-align: left;
+}
 
 .App-content {
   display: inline-block;
@@ -27,13 +30,14 @@
 
 .App-header {
   background-color: #171721;
-  min-height: 100vh;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
 }
 
 .App-link {
@@ -48,11 +52,106 @@
 .profile-info {
   display: flex;
   align-items: center;
-  margin-right: 110px;
-  margin-left: 110px;
+  margin-right: 100px;
+  margin-left: 100px;
+  padding-top: 100px;
+  
+  
 }
 
 .profile-image {
   border-radius: 50%;
-  box-shadow: 0 0 70px #eb7ec1; /* Adds a red shadow with transparency */
+  box-shadow: 0 0 70px #2a9df4; /* Adds a red shadow with transparency */
+}
+
+.skills {
+  background-color: #171721;
+  color: white;
+  margin: 0;
+  padding-bottom: 150px;
+  padding-left: 100px;
+  margin: auto;
+ 
+}
+
+.App {
+  background-color: #171721;
+
+}
+
+.skill-word {
+  font-size: 50px;
+  background: -webkit-linear-gradient(#d0efff, #2a9df4, #187bcd);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 300;
+}
+
+.Java {
+  border: 10px;
+  color: #187bcd;
+  width: 80px; 
+  line-height: 50px; 
+  border-radius: 20%; 
+  text-align: center; 
+  background-color: #6abee9; 
+  font-weight: bold ;
+  font-size: 20px; 
+  margin-right: 40px;
+}
+
+.python{
+  border: 10px;
+  color: #187bcd;
+  width: 80px; 
+  line-height: 50px; 
+  border-radius: 20%; 
+  text-align: center; 
+  background-color: #6abee9; 
+  font-weight: bold ;
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+.react{
+  border: 10px;
+  color: #187bcd;
+  width: 80px; 
+  line-height: 50px; 
+  border-radius: 20%; 
+  text-align: center; 
+  background-color: #6abee9; 
+  font-weight: bold ;
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+.script{
+  border: 10px;
+  color: #187bcd;
+  width: 120px; 
+  line-height: 50px; 
+  border-radius: 20%; 
+  text-align: center; 
+  background-color: #6abee9; 
+  font-weight: bold ;
+  font-size: 20px;
+  margin-right: 40px;
+}
+
+.web{
+  border: 10px;
+  color: #187bcd;
+  width: 120px; 
+  line-height: 50px; 
+  border-radius: 20%; 
+  text-align: center; 
+  background-color: #6abee9; 
+  font-weight: bold ;
+  font-size: 20px;
+}
+
+.skill-list {
+  display: flex;
+  justify-content: left;
 }
