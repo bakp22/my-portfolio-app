@@ -1,7 +1,7 @@
 .name {
-  font-size: 130px;
+  font-size: 170px;
   justify-content: left;
-  font-weight: 300;
+  font-weight: 600;
   background: -webkit-linear-gradient(#ff7130, #ff36c8, #872b97);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -12,11 +12,11 @@
 .d1 {
   padding-top: 40px;
   padding-right: 600px;
-  font-weight: 50;
+  font-weight: 200;
 }
 
 .d2 {
-  font-weight: 50;
+  font-weight: 200;
 }
 
 
@@ -45,3 +45,14 @@
   font-size: 20px;
 }
 
+.profile-info {
+  display: flex;
+  align-items: center;
+  margin-right: 110px;
+  margin-left: 110px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  box-shadow: 0 0 70px #eb7ec1; /* Adds a red shadow with transparency */
+}

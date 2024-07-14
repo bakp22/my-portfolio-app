@@ -5,10 +5,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <div className="profile-info">
       <div className="App-content">
         <p className="name">Beren Akpinar</p>
-        <p className='d1'> Junior undergraduate studying Computer Science and Neuroscience <br></br> 
-                                    at Boston University</p>
+        <p className='d1'> Junior undergraduate studying Computer Science and Neuroscience at Boston University</p>
 
          <p className='d2'>
             Interests: neurotechnology, robotics, software development, healthcare
@@ -18,8 +18,8 @@ function App() {
         
       </div>
         
-      <img width="300" height="300" src={logo} alt="Logo" />
-
+      <img className="profile-image" width="500" height="500" src={logo} alt="Logo" />
+      </div>
         <ul className="skills-list">
           <li>☕ Java</li>
           <li>🐍 Python</li>
